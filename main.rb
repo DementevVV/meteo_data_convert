@@ -19,7 +19,6 @@ File.open(RES_PATH, "a") do |f|
     end
   end
 end
-line_count = 0
-File.open(RES_PATH).each_line { |line| line_count += 1 }
-puts "Total lines:  #{line_count}"
+lines = File.open(RES_PATH).each_line.count
+puts "Total lines: #{lines}" 
 puts "Res in: #{RES_PATH}"
