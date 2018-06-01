@@ -1,5 +1,5 @@
 # meteo_data_convert
-Rewriting all meteorological station data files in one file<br>
+Rewriting all meteorological station data files in one file and data filtering<br>
 <br>
 Copy folder data to directory **meteo_data_convert** <br>
 Replace in program:
